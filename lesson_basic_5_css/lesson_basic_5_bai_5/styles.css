@@ -1,0 +1,30 @@
+body {
+  background: yellowgreen;
+    padding: 2rem;
+
+}
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 2rem;
+    text-align: -webkit-center;
+    color: black;
+    border: dotted;
+}
+strong {
+  font-size: 2rem;
+}
+ul {
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  &:hover {
+    color: #fff;
+    background-color: brown;
+  }
+}

@@ -1,0 +1,17 @@
+main {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+}
+form {
+  position: relative;
+  padding: 1rem;
+  left: 33px;
+  border-radius: 5px;
+  top: 24px;
+}
+h2 {
+  text-align: center;
+  background-color: orangered;
+  color: aliceblue;
+}

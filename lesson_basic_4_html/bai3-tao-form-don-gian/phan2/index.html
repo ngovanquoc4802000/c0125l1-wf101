@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tạo form đơn giản phần 2</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body >
+  <main>
+    <form action="" style="background-color: #fff; width: 500px;">
+      <h2>Student registration</h2>
+      <div style="display: grid; justify-content: space-between;">
+        <label style="color: blue;" class="yourname" for="">yourname:
+          <input type="text" name="yourName">
+        </label>
+        <label style="margin-top: 10px; color: blue;" for="" class="email">date of birth:
+          <input type="date" name="date" id="">
+        </label>
+      </div>
+      <br>
+      <label for="">Sex</label> 
+      <input type="radio" name="boy" value="boy" > boy 
+      <input type="radio" name="girl" > girl <br>
+       <label for="">Address</label>
+       <textarea name="" id=""></textarea> <br>
+      <label for="">Class</label>
+      <select name="class" value="class-dropdown" id="">
+        <option value="chọn lớp" aria-required="true">---chọn lớp---</option>
+        <option value="lớp 1" >lớp 1</option>
+        <option value="lớp 2" >lớp 2</option>
+        <option value="lớp 3" >lớp 3</option>
+        <option value="lớp 4" >lớp 4</option>
+      </select> <br>
+      <div>
+        <label for="">Email</label>
+        <input type="email" name="email"> <br>
+      </div>
+      <div>
+        <label for="">Telephone</label>
+        <input type="text" name="email">
+      </div>
+      
+      <div style="margin-top: 10px;margin-left: 66px;" class="button">
+        <input type="submit" value="Register">
+        <input type="submit" value="Reset Form">
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
