@@ -1,0 +1,32 @@
+body {
+  padding: 2rem;
+}
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  border: 0;
+  margin: 0;
+}
+h1 {
+  color: #000000;
+}
+h2 {
+  color: #000000;
+}
+h3 {
+  margin-top: 5px;
+  color: #333333;
+}
+ul {
+}
+li {
+}
+body {
+}
+p {
+  color: #444444;
+}
+a {
+  color: #440000;
+}
+hr {
+  margin: 0;
+}
