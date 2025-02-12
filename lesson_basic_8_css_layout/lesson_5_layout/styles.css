@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+nav a:hover {
+  border-radius: 4px;
+  background-color: aqua;
+  padding: 10px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.box {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  background-color: orange;
+  margin: 10px;
+  border-radius: 4px;
+}

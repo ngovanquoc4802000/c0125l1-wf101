@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giao diện giản lược của trang chủ</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+     .box-inline {
+            display: inline;
+            background-color: lightblue;
+            padding: 10px;
+            width: 100px; /* ❌ Không có tác dụng với inline */
+            height: 50px; /* ❌ Không có tác dụng với inline */
+        }
+        .box-block {
+            display: block;
+            background-color: lightgreen;
+            padding: 10px;
+            width: 100px;
+            height: 50px;
+        }
+        .box-inline-block {
+            display: inline-block;
+            background-color: lightcoral;
+            padding: 10px;
+            width: 100px;
+            height: 50px;
+        }
+  </style>
+</head>
+
+<body>
+  <p class="box-inline">Inline</p>
+  <p class="box-block">Block</p>
+  <p class="box-inline-block">Inline-Block</p>
+</body>
+
+</html>

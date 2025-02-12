@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.left-column {
+  width: 50%;
+  float: left;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.right-column {
+  width: 44%;
+  background-color: lightgreen;
+  padding: 20px;
+  float: right;
+}
+
+
+/* Xử lý float */
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
