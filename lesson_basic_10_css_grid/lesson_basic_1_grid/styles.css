@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(63, 60, 60);
+  color: #fff;
+}
+.nav-link ul {
+  display: flex;
+  cursor: pointer;
+}
+.nav-link li {
+  margin: 0 2px;
+  list-style: none;
+  padding: 15px 30px;
+}
+.nav-link li:hover {
+  background-color: black;
+}
+.content {
+  float: left;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 1rem;
+}
+.cart {
+  width: 30%;
+  margin: 10px 10px;
+  display: flex;
+}
+
+.gallery {
+  border: 0.5px solid rgb(236, 229, 229);
+  border-radius: 5px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.sidebar {
+  float: right;
+  height: 155vh;
+  background-color: #777777;
+  width: 18%;
+}
+.sidebar ul {
+  padding: 14px;
+}
+.sidebar li {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.sidebar li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+footer {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  padding-left: 5px;
+  line-height: 1.3;
+}
+.desc p {
+  color: #777777;
+}
+
+.menu-icon {
+  display: none;
+}
+@media (max-width: 900px) {
+  .content {
+    width: unset;
+  }
+  .sidebar {
+    background-color: unset;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: unset;
+  }
+  .sidebar ul {
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sidebar li a {
+    color: black;
+  }
+  .sidebar li {
+    background-color: aqua;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  .nav-link ul {
+    visibility: hidden;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .cart {
+    width: 30%;
+  }
+}
+@media (max-width: 700px) {
+  .content {
+    width: unset;
+  }
+  .sidebar {
+    clear: both;
+    float: left;
+  }
+  .nav-link ul {
+    visibility: hidden;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .cart {
+    width: 46%;
+  }
+}
+@media (max-width: 500px) {
+  .cart {
+    width: 100%;
+  }
+}
