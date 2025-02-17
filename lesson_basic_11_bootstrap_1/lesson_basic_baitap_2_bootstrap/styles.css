@@ -1,0 +1,8 @@
+.mixin {
+  width: 50%;
+  border: 1px solid black;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
