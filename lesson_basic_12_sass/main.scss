@@ -1,0 +1,19 @@
+@use "./mainscss/_Variable.scss" as v;
+
+@mixin number {
+  padding: v.$padding-2;
+  background-color: v.$font-blueOrange;
+}
+.primary {
+  @include number();
+}
+
+ul {
+  li {
+    background-color: v.$font-blueOrange;
+    color: v.$font-yellow;
+    text-decoration: none;
+    list-style: none;
+    padding: v.$padding-2;
+  }
+}
