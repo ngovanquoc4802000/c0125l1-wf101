@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tạo Trang Đăng Ký Người Dùng</title>
+  <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container-xx">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fas fa-home"></i> MyWebsite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?auto=compress&cs=tinysrgb&w=600"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=600"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&w=600"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&w=600"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=600"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="login-page bg-light ">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-10 offset-lg-1 mt-2">
+            <div class="bg-white shadow rounded">
+              <div class="row ">
+                <div class="col-md-7 pe-0">
+                  <div class="form-left h-100 py-5 px-5 rounded">
+                    <form action="" class="row g-4  ">
+                      <div class="col-12">
+                        <label>Username<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                          <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                          <input type="text" class="form-control" placeholder="Enter Username">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label>Email<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                          <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                          <input type="text" class="form-control" placeholder="Enter Email">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label>Password<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                          <div class="input-group-text"><i class="bi bi-lock-fill"></i></div>
+                          <input type="text" class="form-control" placeholder="Enter Password">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label>Confirm Password<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                          <div class="input-group-text"><i class="bi bi-lock-fill"></i></div>
+                          <input type="text" class="form-control" placeholder="Enter Password">
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                          <label class="form-check-label" for="inlineFormCheck">Remember me</label>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6">
+                        <a href="#" class="float-end text-primary">Forgot Password?</a>
+                      </div>
+
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary px-4 float-end mt-4">login</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-5 ps-0 d-none d-md-block">
+                  <div class="form-right h-100 bg-primary text-white text-center pt-5">
+                    <i class="bi bi-bootstrap"></i>
+                    <h2 class="fs-1">Welcome Back!!!</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+</html>
