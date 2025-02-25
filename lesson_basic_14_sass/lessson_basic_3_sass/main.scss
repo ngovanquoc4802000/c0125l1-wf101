@@ -1,0 +1,22 @@
+$background-green: #84c754;
+$background-white : #f1f1f1;
+$relative: relative;
+$borderRight: 1px solid grey;
+$heightWrapper : 250px ;
+$heightContent: 100%;
+$widthContent: 8.33%;
+
+.gridwrapper {
+  overflow: auto;
+  position: $relative;
+  height: $heightWrapper;
+}
+.gridcontent {
+  width: $widthContent;
+  margin: 0;
+  border-right: $borderRight;
+  height: $heightContent;
+  float: left;
+  background-color: $background-green;
+  background-color: $background-white;
+}
