@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* header */
+header {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+/* author */
+.author {
+  padding: 50px 20px;
+}
+.author ._author-img {
+  position: relative;
+}
+.author ._author-img img {
+  opacity: 0.8;
+  border-radius: 5px;
+}
+.author ._author-content {
+  padding: 20vmin 7vmin;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.4509803922);
+  top: 4vmin;
+  left: -26vmin;
+  text-align: left;
+}
+.author ._author-content p {
+  opacity: 0.5;
+}
+
+/* features */
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("https://github.com/hoanv7169/bootstrap-demo/blob/main/assets/pexels-photo-452738.jpeg?raw=true");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+.cover .content {
+  width: 100%;
+  height: 100%;
+  padding-top: 19vmin;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.cover .content h1 {
+  font-size: 6vmin;
+  color: white;
+}
+.cover .content p {
+  font-size: 2vmin;
+  color: white;
+}
+
+.numbers {
+  margin-top: -15vmin;
+  z-index: 1;
+}
+.numbers .rect {
+  position: relative;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: tomato;
+}
+
+.purchase .card {
+  width: 22rem;
+  margin: 4vmin 4vmin;
+}
+.purchase .card p {
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+.purchase .card div {
+  padding: 0;
+  margin: 0;
+}
+.purchase .card .title {
+  background: rgba(208, 241, 241, 0.119);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+.purchase .card .card-text {
+  padding: 2.5rem 3rem;
+  font-size: 1rem;
+}
+.purchase .card .pricing {
+  background: rgba(208, 241, 241, 0.119);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+.purchase .card .pricing h1 {
+  font-size: 10vmin;
+  padding: 1em 0.5em;
+}
+
+/* download */
+.download {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 5rem;
+}
+.download h1 {
+  color: #fff;
+}
+.download p {
+  color: #fff;
+}
+.download .button-full i {
+  font-size: 1.5rem;
+}
+.download .button-full .button-1,
+.download .button-full .button-2 {
+  display: flex;
+  padding: 0px 12px;
+  background-color: #fff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-top: 13px;
+}
+.download .button-full .button-1 h5,
+.download .button-full .button-2 h5 {
+  margin: 0;
+}
+.download .button-full .button-1 p,
+.download .button-full .button-2 p {
+  color: #000;
+  font-size: 10px;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=styles.css.map */
