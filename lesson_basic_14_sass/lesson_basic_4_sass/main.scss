@@ -68,11 +68,6 @@
 .firstsection {
   background-color: v.$background-green;
   height: v.$height;
-}
-
-.secondsection {
-  background-color: v.$background-blue;
-  height: v.$height;
   .box-main {
     @include flex-three();
     color: v.$color;
@@ -89,9 +84,22 @@
       font-family: "Piazzolla",sans-serif;
       font-weight: bold;
       font-size: 35px;
+      margin: 0;
     }
     .text-small{
       font-size: 18px;
+    }
+  }
+}
+
+.secondsection {
+  background-color: v.$background-blue;
+  height: v.$height;
+  .box-main {
+    .firstHalf {
+      h1 {
+        margin: 0;
+      }
     }
   }
   .secodhalf {
@@ -109,14 +117,10 @@
 .section {
   height: v.$height;
   @include flex-three;
-  max-width: 90%;
   margin: auto;
+  background-color: yellow;
   .paras {
     padding: 0px 65px;
-    .sectionTag {}
-    .text-big{}
-    .sectionSugTag{}
-    .text-small {}
   }
   .thumnail{
     img {
