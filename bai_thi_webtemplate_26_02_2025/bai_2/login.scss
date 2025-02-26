@@ -1,0 +1,22 @@
+form {
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  button {
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    &:hover {
+      background-color:aquamarine;
+      text-decoration: none;
+    }
+  }
+}

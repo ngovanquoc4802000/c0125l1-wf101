@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+/* Trang Home */
+
+/* header */
+.header {
+  height: 120px;
+  background-color: #2c2925;
+  color: #fff;
+  .header-logo {
+    .header_img_logo {
+      width: 5rem;
+    }
+    ul {
+      li {
+        list-style: none;
+        margin-right: 10px;
+      }
+    }
+  }
+  .header_banner {
+    .header_img_banner {
+    }
+  }
+}
+
+/* nav */
+.nav {
+  background: darkgoldenrod;
+  color: #fff;
+  padding: 10px;
+  .nav_left {
+      li {
+        padding: 10px;
+        &:hover {
+          background-color: #2c2925;
+          color: #f1f1f1;
+        }
+      }
+  }
+  .nav_right {
+  }
+}
+/* sidebar */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+  a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    &:active {
+      background-color: #04aa6d;
+      color: white;
+    }
+    &:hover {
+      background-color: #555;
+      color: white;
+    }
+  }
+}
+/* content */
+.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* Trang admind */
