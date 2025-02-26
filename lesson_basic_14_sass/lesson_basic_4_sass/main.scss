@@ -1,0 +1,147 @@
+@use "./abstract/variable.scss" as v;
+
+@mixin flex-two {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-three {
+  @include flex-two;
+  justify-content: center;
+}
+
+.navbar {
+  @include flex-three();
+  top: 0;
+  cursor: v.$cursor;
+
+  .nav-list {
+    width: 70%;
+    @include flex-two();
+    .logo {
+      @include flex-three();
+      img {
+        width: 180px;
+        border-radius: 50px;
+      }
+    }
+     li {
+      list-style: v.$text-decoration;
+      padding: 26px 30px;
+      a {
+        text-decoration: v.$text-decoration;
+        color: white;
+      }
+      &:hover {
+        color: v.$color-grey;
+      }
+    }
+  }
+  .rightNav {
+    width: 30%;
+    text-align: right;
+    #search {
+      padding: 5px;
+      font-size: 17px;
+      border: 2px solid v.$color-grey;
+    }
+    .btn {
+      padding: 8px 20px;
+      margin: 7px 0px;
+      border: 2px solid white;
+      border-radius: 8px;
+      background: v.$text-decoration;
+      color: white;
+      cursor: v.$cursor;
+    }
+    .btn-sm {
+      padding: 6px 10px;
+      vertical-align: middle;
+    }
+  }
+}
+.background {
+  background: v.$background-black;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+.firstsection {
+  background-color: v.$background-green;
+  height: v.$height;
+}
+
+.secondsection {
+  background-color: v.$background-blue;
+  height: v.$height;
+  .box-main {
+    @include flex-three();
+    color: v.$color;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+  }
+  .firstHalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .text-big{
+      font-family: "Piazzolla",sans-serif;
+      font-weight: bold;
+      font-size: 35px;
+    }
+    .text-small{
+      font-size: 18px;
+    }
+  }
+  .secodhalf {
+    width: 30%;
+    img {
+      width: 70%;
+      border: 4px solid white;
+      border-radius: 150px;
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+.section {
+  height: v.$height;
+  @include flex-three;
+  max-width: 90%;
+  margin: auto;
+  .paras {
+    padding: 0px 65px;
+    .sectionTag {}
+    .text-big{}
+    .sectionSugTag{}
+    .text-small {}
+  }
+  .thumnail{
+    img {
+      width: 250px;
+      border: 2px solid v.$background-black;
+      border-radius: 26px;
+      margin-top: 19px;
+    }
+  }
+}
+.section-Left {
+  flex-direction: row-reverse;
+}
+
+.center {
+  text-align: center;
+}
+
+.background {
+  .text-footer {
+    text-align: center;
+    padding: 30px 0px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+}

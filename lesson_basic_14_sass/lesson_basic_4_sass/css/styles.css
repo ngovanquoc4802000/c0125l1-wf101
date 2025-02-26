@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  cursor: pointer;
+}
+.navbar .nav-list {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.navbar .nav-list .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .nav-list .logo img {
+  width: 180px;
+  border-radius: 50px;
+}
+.navbar .nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+.navbar .nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .nav-list li:hover {
+  color: grey;
+}
+.navbar .rightNav {
+  width: 30%;
+  text-align: right;
+}
+.navbar .rightNav #search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+}
+.navbar .rightNav .btn {
+  padding: 8px 20px;
+  margin: 7px 0px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.navbar .rightNav .btn-sm {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+.background {
+  background: #000;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+.firstsection {
+  background-color: green;
+  height: 400px;
+}
+
+.secondsection {
+  background-color: blue;
+  height: 400px;
+}
+.secondsection .box-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  max-width: 80%;
+  margin: auto;
+  height: 80%;
+}
+.secondsection .firstHalf {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondsection .firstHalf .text-big {
+  font-family: "Piazzolla", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+.secondsection .firstHalf .text-small {
+  font-size: 18px;
+}
+.secondsection .secodhalf {
+  width: 30%;
+}
+.secondsection .secodhalf img {
+  width: 70%;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+
+.section {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: auto;
+}
+.section .paras {
+  padding: 0px 65px;
+}
+.section .thumnail img {
+  width: 250px;
+  border: 2px solid #000;
+  border-radius: 26px;
+  margin-top: 19px;
+}
+
+.section-Left {
+  flex-direction: row-reverse;
+}
+
+.center {
+  text-align: center;
+}
+
+.background .text-footer {
+  text-align: center;
+  padding: 30px 0px;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
